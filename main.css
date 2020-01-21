@@ -1,0 +1,19 @@
+div {
+    margin-top:3em;
+  }
+  div a {
+    background:#eeeeee;
+    padding:1em;
+    border-radius: 15px;
+  }
+  
+  div a:hover {
+    animation: rainbow 5.5s linear infinite;
+  }
+  
+  @keyframes rainbow {
+     0%{background:linear-gradient(to bottom right ,#46b8dd, #fcfc8a,#ca9ee5);}
+    25%{background:linear-gradient(to bottom right, #a442f4, #edab6a,#46b8dd);}
+    75%{background:linear-gradient(to bottom right,#46b8dd, #a442f4, #e59eac);}
+    100%{background:linear-gradient(to bottom right,#e59eac, #ca9ee5, #46b8dd);}
+  }
